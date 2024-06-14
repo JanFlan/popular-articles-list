@@ -6,4 +6,8 @@
     font-size: 1.5rem;
     color: #666;
   }
-  
+
+  #period-select {
+    margin: 10px 0;
+    padding: 5px;
+  }
