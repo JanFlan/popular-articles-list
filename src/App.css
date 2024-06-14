@@ -1,0 +1,51 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f9;
+  margin: 0;
+  padding: 0;
+  color: #333;
+}
+
+.App {
+  text-align: center;
+}
+
+header {
+  background-color: #282c34;
+  padding: 16px;
+  color: white;
+}
+
+h1 {
+  font-size: 2rem;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+li {
+  background-color: white;
+  margin: 8px 0;
+  padding: 16px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  transition: background-color 0.3s, transform 0.2s;
+  cursor: pointer; /* Add cursor pointer on hover */
+}
+
+li:hover {
+  background-color: #f0f0f5; 
+  transform: scale(1.02);
+}
+
+li h2 {
+  margin: 0;
+  font-size: 1.5rem;
+}
+
+li p {
+  font-size: 1rem;
+  color: #666;
+}
